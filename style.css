@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav div{
+    background-color: #dfba5b;
+    text-align: right;
+    padding: 10px 4px;
+    height: 17px;
+    position: fixed;
+    width: 100%;
+   
+}
+nav div span{
+    color:white;
+    line-height:16px;
+    font-size:15px;
+    padding:5px;
+    border-right: 1px solid white;
+    margin-right: 6px;
+    cursor: pointer;
+   
+}
+#none{
+    border:none;
+}
+
+.containerDiv{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(211, 201, 201);
+    box-shadow: 5px 1px rgba(172, 153, 153, 0);
+    
+
+}
+.containerDiv .leftDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.containerDiv .leftDiv .icons{
+    margin-top: 55px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.containerDiv .leftDiv .icons span{
+    margin: 4px;
+}
+.rightDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerDiv .leftDiv .emmalogo{
+    height: 80px;
+    margin: 10px 23px 10px 20px;
+    
+}
+
+.containerDiv .leftDiv span,i{
+    color:rgba(102,102,102,.7);
+    cursor: pointer;
+
+}
+
+.containerDiv .rightDiv{
+    color:rgba(102,102,102,.7);
+    margin-top: 30px;
+}
+.containerDiv .rightDiv .icons i{
+    border: 1px solid rgba(102,102,102,.6);
+    border-radius: 73%;
+    padding:5px;
+    margin-right: 9px;
+    
+}
+.containerDiv .rightDiv div{
+    margin:20px 12px;
+    border-right: 1px solid rgba(102,102,102,.6);
+}
+.containerDiv .rightDiv .down{
+    margin-top: 25px;
+   
+}
+.containerDiv .rightDiv .down span{
+    margin-right: 9px;
+
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+}
+.third .rightHome{
+    color: rgba(102,102,102,.8);
+    margin: 15px 10px 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+ #black{
+    color:rgba(0,0,0,.9);
+    cursor: text;
+}
+.third .rightHome .filtering {
+    padding-top: 15px;
+    
+}
+.third .rightHome .filtering span{
+    font-weight: 700;
+    
+}
+ .filtering:hover{
+    color: black;
+    
+}
+.hover1:hover{
+    color: black;
+    
+}
+.third .leftHome{
+    display: flex;
+    justify-content: space-between;
+}
+.third .leftHome #show{
+    color:rgba(102,102,102,.8);
+    font-weight: 400;
+    font-size:20px;
+    font-family: Grande, sans-serif;
+    
+   
+}
+.third .leftHome .selecting{
+    border: 2px solid #80808047;
+  
+    background-color: rgba(153, 205, 50, 0);
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size:15px;
+    font-family: Grande, sans-serif;
+
+}
+.third .leftHome div{
+    margin: 30px;
+}
+.third .leftHome .show1{
+    margin-top: 35px;
+    margin-right: 0;
+}
+.containerImage .caption{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-top: 10px;
+}
+.containerImage .caption h4{
+    margin-top: 13px;
+    font-size: 24px;
+    color:rgba(0, 0, 0,.7566);
+}
+.containerImage .caption h2{
+    color:#fcb900;
+    cursor: pointer;
+    
+}
+.containerImage .caption h2:hover{
+    color:black;
+}
+.stars{
+    
+    border-top: 1px solid #80808038;
+    border-bottom: 1px solid #80808038;
+    margin-top: 20px;
+}
+.stars div{
+    margin: 0px 20px 7px 20px;
+    font-style: italic;
+    color:#808080cf;
+}
+.stars .star{
+    margin-top: 45px;
+}
+.stars .writer{
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+.mainContantFirstTop{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px 20px 40px 20px;
+   
+}
+.mainContantFirstTop .thefirstTopLeft .imageInfo{
+    text-align: center;
+    margin-top: 10px;
+}
+.mainContantFirstTop .thefirstTopLeft .imageInfo .imageName{
+    color:#fcb900;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+.mainContantFirstTop .thefirstTopLeft .imageInfo .imageName:hover{
+    color:black;
+}
+.mainContantFirstTop .thefirstTopLeft .imageInfo .imagePrice{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.mainContantFirstTop .thefirstTopLeft .imageInfo button{
+    color: white;
+    background-color: #efb209bd;
+    padding: 7px 20px;
+    border: 1px solid #8a680abd;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.mainContantFirstTop .thefirstTopLeft .imageInfo button:hover{
+    background-color:#8a680abd ;
+}
+.lastDiv{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(182,227,212);
+    color:white;
+    margin-top: 70px;
+    border-top:1px solid  rgb(60, 115, 96);
+}
+.lastDiv .about .icons_Footer {
+
+    margin-top: 30px;
+}
+.lastDiv .about .icons_Footer i{
+    color:white;
+    border: 1px solid white;
+    border-radius: 73%;
+    padding:5px;
+    
+}
+.lastDiv .about{
+    width:183px;
+    margin-left: 20px;
+   
+}
+.lastDiv .about h3{
+    margin: 40px 20px 20px 0px;
+    text-decoration: underline;
+    font-size: medium;
+}
+.lastDiv .loginForm{
+    margin-top: 30px;
+}
+.lastDiv .loginForm>input{
+    color:red;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 12px;
+}
+.lastDiv .loginForm #submitbutton{
+  color: white;
+  background-color: #efb209bd;
+  padding: 7px 20px 10px 20px;
+  border: 1px solid #8a680abd;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
+.lastDiv .loginForm #emaill{
+    padding: 5px 0px 5px 8px;
+    font-size: larger;
+}
+.lastDiv .loginForm p{
+    margin-bottom: 10px;
+}
